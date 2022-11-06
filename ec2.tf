@@ -7,8 +7,8 @@ resource "aws_instance" "web" {
   root_block_device {
   encrypted     = true
   }
-  
+
    tags = {
-    Name = "airbnb-web-server"
+    Name = "airbnb-web-server-instance"
   }
 }
